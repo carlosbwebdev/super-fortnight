@@ -1,0 +1,30 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .appLogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  
+
+  .appLogoLeft{
+    animation: App-logo-spin-left infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin-left {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+img{border-radius: 100%;}
