@@ -1,3 +1,11 @@
+.redColor {
+  color: red;
+}
+
+.yellowColor {
+  color: yellow
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .appLogo {

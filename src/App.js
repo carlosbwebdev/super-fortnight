@@ -4,6 +4,7 @@ import './App.css';
 import info from './assets/info';
 import UserImage from '../src/assets/user.jpg';
 import Navbar from './components/Navbar';
+import Dados from './components/Dados';
 
 function App() {
   const [className, setClassName] = useState(false);
@@ -37,6 +38,11 @@ function App() {
         <p>{`O meu nome é ${info.nome} ${info.apelido}, tenho ${info.idade} anos de idade e sou ${info.profissão}!`}</p>
 
         <button onClick={handleClick}>Clica me</button>
+        <Dados
+          email="carlosbwebdev@gmail.com"
+          github="github.com/carloswebdev"
+          linkedin="carlosBarros-dev"
+        />
       </main>
       <Outlet />
     </>

@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import Praticaum from './routes/praticaum';
 import Praticadois from './routes/praticadois';
 import Praticatres from './routes/praticatres';
+import Elevandostate from './routes/elevandostate';
+import Customhook from './routes/customhook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
       <Route path="praticaum" element={<Praticaum />} />
       <Route path="praticadois" element={<Praticadois />} />
       <Route path="praticatres" element={<Praticatres />} />
+      <Route path="elevandostate" element={<Elevandostate />} />
+      <Route path="customhook" element={<Customhook />} />
     </Routes>
   </BrowserRouter>
 );
